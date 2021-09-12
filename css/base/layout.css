@@ -1,0 +1,37 @@
+/* body {
+    background-color: rgb(195, 237, 248);
+} */
+
+.app-header {
+    min-height: 60px;
+}
+
+.app-main {
+    min-height: calc(100vh - 180px);
+    background-color: rgb(222, 250, 196);
+}
+
+.app-footer {
+    min-height: 120px;
+}
+
+
+
+.container {
+    margin: 0 auto;
+    padding: 0 5px;
+    max-width: 900px;
+} @media (max-width: 950px) {
+    .container {
+        max-width: 700px;
+    }
+} @media (max-width: 750px) {
+    .container {
+        padding: 0 2px;
+        max-width: unset;
+    }
+} @media (max-width: 450px) {
+    .container {
+        padding: 0;
+    }
+}
