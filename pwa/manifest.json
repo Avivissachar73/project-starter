@@ -8,7 +8,7 @@
   "theme_color": "white",
   "icons": [
     {
-      "src": "/pwa/favicon.png",
+      "src": "pwa/favicon.png",
       "sizes": "10x10",
       "type": "image/png"
     }
